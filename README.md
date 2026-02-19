@@ -17,7 +17,17 @@ Each skill lives in its own directory and contains:
 
 ## Usage
 
-Add this repository to your Claude Code configuration to give Claude expertise in the listed libraries when assisting with your projects.
+List available skills:
+
+```bash
+npx skills add marcisbee/skills --list
+```
+
+Install a skill:
+
+```bash
+npx skills add marcisbee/skills --skill exome
+```
 
 ## License
 
