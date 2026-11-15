@@ -1,0 +1,4 @@
+interface:
+  display_name: "Technical R&D"
+  short_description: "Research and evaluate technical and product solutions"
+  default_prompt: "Use $tech-rnd to investigate this technical or product-feature decision, compare alternatives with appropriate evidence and prototypes, and deliver a concise recommendation and implementation handoff."

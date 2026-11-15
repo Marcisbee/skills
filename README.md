@@ -1,6 +1,6 @@
 # skills
 
-A collection of Claude Code skills — reusable knowledge packs that give Claude domain expertise on specific libraries and tools.
+A collection of agent skills for Claude Code, Codex, and compatible tools — reusable knowledge packs for specific libraries, tools, and workflows.
 
 ## Structure
 
@@ -8,6 +8,7 @@ Each skill lives in its own directory and contains:
 
 - `SKILL.md` — the main skill definition with frontmatter metadata and core documentation
 - `references/` — supplementary guides (e.g. framework-specific integrations)
+- `agents/` — optional agent-specific display and invocation metadata
 
 ## Available Skills
 
@@ -15,6 +16,7 @@ Each skill lives in its own directory and contains:
 |-------|-------------|
 | [exome](skills/exome/SKILL.md) | Exome.js state management — deeply nested stores, actions, framework integrations (React, Vue, Svelte, Solid, Lit, Angular, RxJS, vanilla) |
 | [obsidian-kanban](skills/obsidian-kanban/SKILL.md) | Manage tasks on an Obsidian Kanban board — move tasks between columns, update status, track progress |
+| [tech-rnd](skills/tech-rnd/SKILL.md) | Technical and product R&D — independent research, alternative comparisons, reproducible evaluations, standalone PoC demos, and concise implementation handoffs |
 
 ## Usage
 
@@ -28,6 +30,12 @@ Install a skill:
 
 ```bash
 npx skills add marcisbee/skills --skill exome
+```
+
+Install the technical R&D skill:
+
+```bash
+npx skills add marcisbee/skills --skill tech-rnd
 ```
 
 ## License
