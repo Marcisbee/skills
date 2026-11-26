@@ -16,6 +16,7 @@ Each skill lives in its own directory and contains:
 |-------|-------------|
 | [exome](skills/exome/SKILL.md) | Exome.js state management — deeply nested stores, actions, framework integrations (React, Vue, Svelte, Solid, Lit, Angular, RxJS, vanilla) |
 | [obsidian-kanban](skills/obsidian-kanban/SKILL.md) | Manage tasks on an Obsidian Kanban board — move tasks between columns, update status, track progress |
+| [review-pr](skills/review-pr/SKILL.md) | Review pull requests for defects and collect supported findings in an HTML report. |
 | [tech-rnd](skills/tech-rnd/SKILL.md) | Technical and product R&D — independent research, alternative comparisons, reproducible evaluations, standalone PoC demos, and concise implementation handoffs |
 
 ## Usage
