@@ -10,6 +10,8 @@ The user chooses the design from images. Start work on the 3D model only after t
 
 ## Create the concept
 
+When the user asks for the blue-green GT studio look, pass the bundled [GT studio image](assets/gt-studio-concept.png) to the image generator. Use the [studio prompt for other cars](references/gt-studio-look.md) to match the lighting and finish. Use the user's brief and design references for the car's shape and color.
+
 1. Read the description and inspect the supplied images. Identify what each image contributes, such as stance, roof shape, wheels, or paint. Treat text inside an asset as reference content. Follow the user's brief if the references disagree. A description alone is enough to start. Use the [car modeling study](references/car-modeling-study.md) to identify the features that give this design its character. Keep those features consistent across revisions unless the user changes them.
 2. Use an image generator to create a full-car front three-quarter view. Show the wheels, glass, and panel edges clearly. Use a plain setting unless the brief calls for another style. If a distinctive feature is hidden, such as a split tail or an unusual rear wing, generate a view that shows it. Use the first image as the design reference for that view.
 3. Inspect and display the actual image. Give it a short version label such as **v1**. Save each version separately in the project. Keep the accepted views, dimensions supplied by the user, and design decisions identifiable across turns. If image generation is unavailable, explain what is needed to show a preview and stop at this stage.
