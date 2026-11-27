@@ -6,6 +6,8 @@ Use the user's dimensions first. For a fictional car with no measurements, choos
 
 Use a side image to judge the profile. Use the top and end views to judge body width, cabin taper, and fender width. An image generator can move an axle or change a lens between views. Use the approved image for design intent and the chosen dimensions for measurement. If an explicit measurement and a major approved styling feature conflict, show the conflict before changing the design.
 
+Use the [measured GT example](car-modeling-study.md#measure-a-side-reference) to check a generated side view. Render matched projections from the corrected shell if you need more references.
+
 ## Build the surfaces
 
 1. Block out the tires, body, and cabin. Match the silhouette and wheel gaps with a camera close to the approved view. Look at the car from above and from both ends. Shape the fender crowns and cabin width in those views.
@@ -16,6 +18,7 @@ Use a side image to judge the profile. Use the top and end views to judge body w
 
 ## Verify the saved model
 
+- Use the [car modeling study](car-modeling-study.md#model-quality-checks) to inspect the surface reflections, component depth, and finish.
 - Compare a gray render with the approved image at a similar angle and framing. Check the roofline, axle locations, arch gaps, lamp shapes, and wheel design.
 - Inspect the whole car for open seams, shading defects, or wheels that intersect the fenders. Check moving parts in their working positions if the brief calls for them.
 - Render front, rear, side, and top views with orthographic cameras. Use the same orthographic scale, resolution, and pixel aspect so distances can be compared across the views. Use a separate perspective camera for the studio render.
