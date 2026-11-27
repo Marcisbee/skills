@@ -30,7 +30,7 @@ An initial request for a finished model starts the workflow. Approval comes from
 
 ## Build and deliver
 
-After approval, use Blender through an available integration or its background executable. Read [Blender construction and checks](references/blender-build.md) for the modeling steps.
+After approval, use Blender through an available integration or its background executable. Read [Blender construction and checks](references/blender-build.md) for the modeling steps. For a dimensioned brief, check the blockout and finished mesh against the supplied targets. The [mesh review guide](references/mesh-review.md) includes an optional script for repeating those checks.
 
 - Build the primary shapes at scale. Render a plain gray view from the concept camera and compare it with the approved image. Show the comparison and correct visible mismatches. Continue to the finished model unless the user requested a checkpoint or a major design choice still needs their input.
 - Use the study’s [model quality checks](references/car-modeling-study.md#model-quality-checks) on the actual mesh and renders. Correct visible defects before delivery.
