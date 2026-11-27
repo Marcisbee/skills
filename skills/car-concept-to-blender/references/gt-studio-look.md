@@ -4,11 +4,11 @@
 
 ## Use the look on another car
 
-Supply the bundled studio image as the style reference. If the user supplies a design image, pass it as a separate design reference and name each image's role in the prompt. Use the paint color in the brief. If the user asks for the full blue-green look and leaves the color open, use muted petrol-blue gloss.
+For the default studio look, use the bundled image for lighting, camera, and setting. If the user supplies a design image, pass it as a separate design reference and name each image's role in the prompt. Use the body shape, paint color, and finish from the brief. For example, a matte red wagon keeps its long roof and matte red paint under the GT studio lights.
 
 Replace the bracketed text with the current brief.
 
-> Show [car description and defining features] in [paint color and finish]. Use the GT studio image for the lighting, camera, and setting. Use the proportions, roofline, lamps, and wheels from the car brief. Frame the entire car from a low front three-quarter angle with mild perspective. Show broad, clean reflections across the hood and fenders. Keep the tire edges, rubber seals, and lamp lenses visible. Use a dark neutral background, a lightly textured charcoal floor, and soft shadows where the tires touch the floor.
+> Show [car description and defining features] in [paint color and finish]. Use the GT studio image for the lighting, camera, and setting. Use the proportions, roofline, lamps, and wheels from the car brief. Frame the entire car from a low front three-quarter angle with mild perspective. Use broad studio lights to reveal the hood and fenders. Match the reflections to the specified paint finish. Keep the tire edges, rubber seals, and lamp lenses visible. Use a dark neutral background, a lightly textured charcoal floor, and soft shadows where the tires touch the floor.
 
 ## Original GT studio prompt
 
