@@ -8,6 +8,8 @@ Use a side image to judge the profile. Use the top and end views to judge body w
 
 Use the [measured GT example](car-modeling-study.md#measure-a-side-reference) to check a generated side view. Render matched projections from the corrected shell if you need more references.
 
+When the brief specifies dimensions, measure them on the blockout before detailing. Record each target, actual value, signed difference, and any supplied tolerance in millimeters. Check the front and rear overhangs individually when specified. A correct overall length can hide a nose that is too long and a tail that is too short. Use Blender's measurement tools or the [optional mesh review script](mesh-review.md). If you have aligned orthographic references, keep the framing and reference alignment fixed across revisions.
+
 ## Build the surfaces
 
 1. Block out the tires, body, and cabin. Match the silhouette and wheel gaps with a camera close to the approved view. Look at the car from above and from both ends. Shape the fender crowns and cabin width in those views.
@@ -18,6 +20,7 @@ Use the [measured GT example](car-modeling-study.md#measure-a-side-reference) to
 
 ## Verify the saved model
 
+- Repeat the specified measurements on the finished exterior with the same conventions as the blockout (for example, width with mirrors folded or excluded). Include parts added during detailing that affect the targets, such as bumpers or a splitter. Correct discrepancies or report any remaining difference in the handoff.
 - Use the [car modeling study](car-modeling-study.md#model-quality-checks) to inspect the surface reflections, component depth, and finish.
 - Compare a gray render with the approved image at a similar angle and framing. Check the roofline, axle locations, arch gaps, lamp shapes, and wheel design.
 - Inspect the whole car for open seams, shading defects, or wheels that intersect the fenders. Check moving parts in their working positions if the brief calls for them.
